@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Navbar styling */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F0DBC5;
+    display: flex;
+    height: 55px;
+    align-items: center;
+}
+
+/* Navbar items */
+ul li {
+    display: inline;
+}
+
+/* Links styling */
+ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 25px 25px;
+    text-align: center;
+}
+
+/* Hover effect */
+ul li a:hover {
+    background-color: #C4B5A5;
+}
+
+.active {
+    background-color: #C4B5A5;
+}
+
+/* Alignment: left for first item, right for last item */
+ul li:first-child {
+    height: auto;
+}
+
+ul li:last-child {
+    margin-left: auto;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Style the form container */
+.form-container {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 80px 200px;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.form-container tbody td:first-child {
+    width: 165px; 
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-container input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form-container .button-container {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.form-container button {
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #D4AF37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #B8860B;
+}

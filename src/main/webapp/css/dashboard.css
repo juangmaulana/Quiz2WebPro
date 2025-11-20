@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family:'Nunito', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F0DBC5;
+    display: flex;
+    height: 55px;
+    align-items: center;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 25px 25px;
+    text-align: center;
+}
+
+ul li a:hover {
+    background-color: #C4B5A5;
+}
+
+.active {
+	background-color: #C4B5A5;
+}
+
+ul li:first-child {
+    height: auto;
+}
+
+ul li:last-child {
+    margin-left: auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    
+}
+
+thead th {
+    background-color: #F0DBC5;
+    color: black;
+    padding: 10px;
+    text-align: left;
+    font-weight: 600;
+    border: 1px solid black;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+thead th:first-child, tbody td:first-child {
+    width: 30px; 
+    text-align: center; 
+}
+
+
+table, th, td, tr {
+    border: none;
+}
+
+.delete-btn {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: #cc0000;
+}
+
+.update-btn {
+	background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.update-btn:hover {
+	background-color: darkblue;
+}
